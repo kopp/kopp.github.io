@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+regex=TODAY
+today=$(date +%Y-%m-%d)
+file=src/App.tsx
+echo Replacing $regex with $today in $file
+
+sed -i "s/$regex/$today/" $file

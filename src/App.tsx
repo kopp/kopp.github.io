@@ -31,6 +31,8 @@ function App() {
       <h1>
         <code>kopp</code>'s Github Pages page
       </h1>
+      <p>Here is a categorized list of the public repositories.</p>
+      <p>It was last updated TODAY.</p>
 
       <div className="card">
         <h2>Simple Games</h2>
@@ -183,7 +185,7 @@ function App() {
       </div>
 
       <div className="card">
-        <h2>Projects</h2>
+        <h2>Tinkering Projects</h2>
         <ul>
           <GithubProject
             project="DigitalerTeePi"
@@ -204,5 +206,3 @@ function App() {
 }
 
 export default App;
-
-// TODO: continue here https://github.com/kopp?page=3&tab=repositories
