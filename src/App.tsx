@@ -77,7 +77,7 @@ function App() {
       </div>
 
       <div className="card">
-        <h2>Useful (Arch Linux Users)</h2>
+        <h2>Useful ((Arch) Linux Users)</h2>
         <ul>
           <GithubProject
             project="build-aur-packages"
@@ -89,6 +89,18 @@ function App() {
             project="aurci2"
             name="AUR CI 2"
             description="Build some AUR packages in a weekly cron job and publish the build results so that pacman can use them."
+            isWebApp={false}
+          />
+          <GithubProject
+            project="awesome_textual_battery_widget"
+            name="awesome_textual_battery_widget"
+            description="Text only battery widget for Awesome Window Manager"
+            isWebApp={false}
+          />
+          <GithubProject
+            project="ros-dockers"
+            name="ros-dockers"
+            description="Dockerfiles to work with ros"
             isWebApp={false}
           />
         </ul>
@@ -107,6 +119,24 @@ function App() {
             project="ArduinoTTP229MinimalLibrary"
             name="Minimal Arduino library TTP229 touchpad"
             description="Minimal class to read out what buttons are pressed on a TTP229 touchpad that is not i2c capable."
+            isWebApp={false}
+          />
+        </ul>
+      </div>
+
+      <div className="card">
+        <h2>Useful (Understand tools)</h2>
+        <ul>
+          <GithubProject
+            project="minimal-gn-project"
+            name="minimal gn project"
+            description="Very minimal project that can be built with Google's Meta Build System gn (https://gn.googlesource.com/gn/)"
+            isWebApp={false}
+          />
+          <GithubProject
+            project="hello-cmake-world"
+            name="hello cmake world"
+            description="Very simple applicaton built with CMake."
             isWebApp={false}
           />
         </ul>
@@ -133,12 +163,66 @@ function App() {
             description="Tooling to extract text that can be fed to a Text To Speech engine from various inputs."
             isWebApp={false}
           />
+          <GithubProject
+            project="ShareToHttp"
+            name="ShareToHttp"
+            description="Android App to transfer texts and images quickly from your Android Device to a web browser, e.g. on a PC."
+            isWebApp={false}
+          />
+          <GithubProject
+            project="nested_asciidoc"
+            name="nested asciidoc"
+            description="Demo: How to handle nested asciidoc document structure"
+            isWebApp={false}
+          />
         </ul>
       </div>
 
       <div className="card">
-        <h2>Teaching and learning</h2>
+        <h2>Teaching: material and tools (geared towards teachers)</h2>
         <ul>
+          <GithubProject
+            project="NWT-Protokoll-Facharbeit-Anleitung"
+            name="NWT-Protokoll Facharbeit Anleitung"
+            description="Step by step instructions for how to write a report on a NWT Facharbeit (German only)"
+            isWebApp={false}
+          />
+          <GithubProject
+            project="IMP-Materialien"
+            name="IMP-Materialien"
+            description="Teaching material for the subject IMP (Informatik, Mathematik, Physik) in Baden-Württemberg (German only)"
+            isWebApp={false}
+          />
+          <GithubProject
+            project="FachschaftssitzungenPlanen"
+            name="FachschaftssitzungenPlanen"
+            description="Jupyter Lab Dokument um Fachschaftssitzungen elegang zu planen"
+            isWebApp={false}
+          />
+          <GithubProject
+            project="extycion-archive"
+            name="extycion-archive"
+            description="Provide files that used to be available on www.extycion.de."
+            isWebApp={false}
+          />
+          <GithubProject
+            project="physik_script_abi"
+            name="Physik-Script Abi 2008"
+            description="Content of the German Abitur 2008 in the subject Physics"
+            isWebApp={false}
+          />
+        </ul>
+      </div>
+
+      <div className="card">
+        <h2>Teaching: interactive learning material</h2>
+        <ul>
+          <GithubProject
+            project="CppUndoRedoWithVector"
+            name="C++ Undo-Redo with Vector"
+            description="UndoRedo Framework with more efficient vector based stack implementation; inspired by https://github.com/GerdHirsch/Cpp-UndoRedoFramework"
+            isWebApp={false}
+          />
           <GithubProject
             project="pyventskalender"
             name="Pyventskalender"
@@ -158,15 +242,15 @@ function App() {
             isWebApp={false}
           />
           <GithubProject
-            project="NWT-Protokoll-Facharbeit-Anleitung"
-            name="NWT-Protokoll Facharbeit Anleitung"
-            description="Step by step instructions for how to write a report on a NWT Facharbeit (German only)"
+            project="RiddlesWithHtml5AndJavaScript"
+            name="RiddlesWithHtml5AndJavaScript"
+            description="A simple HTML5 website with JavaScript that allows you to ask riddles and check the answer."
             isWebApp={false}
           />
           <GithubProject
-            project="IMP-Materialien"
-            name="IMP-Materialien"
-            description="Teaching material for the subject IMP (Informatik, Mathematik, Physik) in Baden-Württemberg (German only)"
+            project="Html5AndCssForTeaching"
+            name="Html5AndCssForTeaching"
+            description="A simple Html5 page with CSS that can be used for teaching HTML5 and CSS."
             isWebApp={false}
           />
         </ul>
@@ -180,6 +264,24 @@ function App() {
             name="Fröbelstern Anleitung"
             description="Instructions for how to build a Fröbelstern (German)"
             isWebApp={true}
+          />
+          <GithubProject
+            project="vorsorge"
+            name="vorsorge"
+            description="Notizen und Resourcen die sich mit Vorsorgethemen (Testament, Vollmachten, ...) befassen."
+            isWebApp={false}
+          />
+          <GithubProject
+            project="Kinderlieder"
+            name="Kinderlieder"
+            description="Selbstgedichtete Strophen von Kinderliedern"
+            isWebApp={false}
+          />
+          <GithubProject
+            project="baby_lotto"
+            name="Baby Lotto"
+            description="Rules how to bet on size/weight/... of my firstborn."
+            isWebApp={false}
           />
         </ul>
       </div>
@@ -199,10 +301,19 @@ function App() {
             description="Build a toy that shows how red/green/blue is mixed to build up multiple colors, controlled by RFID tokens."
             isWebApp={false}
           />
+          <GithubProject
+            project="AmigomatedDriving"
+            name="Amigomated Driving"
+            description="Source code and other required files to provide a base automated driving software on an AmigoBot using ROS."
+            isWebApp={false}
+          />
         </ul>
       </div>
     </>
   );
 }
+
+// not mentioned because incomplete
+// give-me-feedback
 
 export default App;
