@@ -73,6 +73,12 @@ function App() {
             description="Ask someone to repeat words that you read back to you and rate whether they succeeded, then get some statistics from that."
             isWebApp
           />
+          <GithubProject
+            project="ballsolver"
+            name="Ball solver"
+            description="Solve a simple toy puzzle roughly similar to a Rubik's Cube but simpler."
+            isWebApp={false}
+          />
         </ul>
       </div>
 
@@ -266,6 +272,12 @@ function App() {
             isWebApp={true}
           />
           <GithubProject
+            project="ich-geh-mit-meiner-laterne"
+            name="ich-geh-mit-meiner-laterne"
+            description="'Ich geh' mit meiner Laterne' -- call to action including webpage for Laternelaufen (German only)."
+            isWebApp={true}
+          />
+          <GithubProject
             project="vorsorge"
             name="vorsorge"
             description="Notizen und Resourcen die sich mit Vorsorgethemen (Testament, Vollmachten, ...) befassen."
@@ -275,12 +287,18 @@ function App() {
             project="Kinderlieder"
             name="Kinderlieder"
             description="Selbstgedichtete Strophen von Kinderliedern"
-            isWebApp={false}
+            isWebApp={true}
           />
           <GithubProject
             project="baby_lotto"
             name="Baby Lotto"
             description="Rules how to bet on size/weight/... of my firstborn."
+            isWebApp={false}
+          />
+          <GithubProject
+            project="whats-the-price-for-the-milk"
+            name="What's the price for the milk?"
+            description="monitor prices for a certain piece of milk"
             isWebApp={false}
           />
         </ul>
